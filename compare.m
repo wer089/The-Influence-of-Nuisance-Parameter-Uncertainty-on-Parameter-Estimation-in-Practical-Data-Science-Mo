@@ -1,0 +1,7 @@
+estimate_adjusted_variance_of_primary_parameter(Yn(:,1),0.005,estimated_nui_omega,variance_e_y_squared,estimated_nui_Alpha,estimated_nui_Beta);
+estimate_adjusted_variance_of_primary_parameter(Yn(:,1),0.01,estimated_nui_omega,variance_e_y_squared,estimated_nui_Alpha,estimated_nui_Beta);
+estimate_adjusted_variance_of_primary_parameter(Yn(:,1),0.015,estimated_nui_omega,variance_e_y_squared,estimated_nui_Alpha,estimated_nui_Beta);
+estimate_adjusted_variance_of_primary_parameter(Yn(:,1),estimated_nui_omega,estimated_nui_omega,variance_e_y_squared,estimated_nui_Alpha,estimated_nui_Beta);
+estimate_adjusted_variance_of_primary_parameter(Yn(:,1),0.02,estimated_nui_omega,variance_e_y_squared,estimated_nui_Alpha,estimated_nui_Beta);
+estimate_adjusted_variance_of_primary_parameter(Yn(:,1),0.025,estimated_nui_omega,variance_e_y_squared,estimated_nui_Alpha,estimated_nui_Beta);
+estimate_adjusted_variance_of_primary_parameter(Yn(:,1),NaN,estimated_nui_omega,variance_e_y_squared,estimated_nui_Alpha,estimated_nui_Beta);
